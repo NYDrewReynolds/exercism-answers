@@ -11,9 +11,9 @@ class Raindrops
     if number % 7 == 0
       return_string << "Plong" #If 7 is prime factor, shovel Plong
     end
-    if return_string == '' #If none of the above, pass as string
+    if return_string == ''     #If none of the above, pass as string
       return_string = number.to_s
     end
-    return_string #Return final answer
+    return_string              #Return final answer
   end
 end
