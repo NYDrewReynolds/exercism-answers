@@ -1,7 +1,7 @@
 class Raindrops
 
   def self.convert(number)
-    return_string = '' #Start with empty string
+    return_string = ''         #Start with empty string
     if number % 3 == 0
       return_string << "Pling" #If 3 is prime factor, shovel Pling
     end
